@@ -1,5 +1,6 @@
 import UIKit
 
+
 ///////////////////////////////////////
 /////////         Max         /////////
 ///////////////////////////////////////
@@ -394,7 +395,7 @@ var digits: [Int] = []
 // your code here
 
 while number > 0 {
-    var digit = number % 10
+    let digit = number % 10
     
     digits = [digit] + digits
     
@@ -410,8 +411,6 @@ for digit in digits {
 /////////         Unique         /////////
 //////////////////////////////////////////
 /*Create a list unique with all the unique numbers from listOfNumbers, and then print the numbers on separate lines.*/
-
-
 
 var listOfNumbersU = [1, 2, 3, 1, 2, 10, 100]
 

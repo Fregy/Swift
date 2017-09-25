@@ -1,5 +1,5 @@
 import UIKit
-import Foundation
+
 
 ///////////////////////////////////////////
 /////////         Average         /////////
@@ -123,15 +123,3 @@ if (weatherWasGood == true) {
 }
 
 print(totalYield)
-
-
-
-
-
-
-
-
-
-
-
-

@@ -1,5 +1,9 @@
 import UIKit
-import Foundation
+
+
+////////////////////////////////////////////////
+/////////         Introduction         /////////
+////////////////////////////////////////////////
 
 // In Swift strings are represented by the String type which is a collection of values of Character type.
 

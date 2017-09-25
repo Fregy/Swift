@@ -1,5 +1,5 @@
 import UIKit
-import Foundation
+
 
 //////////////////////////////////////////////
 /////////         Chalkboard         /////////
@@ -111,8 +111,8 @@ var Nsq = 4
 
 // your code here
 
-for i in 1...Nsq {
-    for j in 1...Nsq {
+for _ in 1...Nsq {
+    for _ in 1...Nsq {
         print("*", terminator: "")
     }
     print("")
@@ -132,8 +132,8 @@ var M = 7
 
 // your code here
 
-for i in 1...Nr {
-    for j in 1...M {
+for _ in 1...Nr {
+    for _ in 1...M {
         print("*", terminator: "")
     }
     print("")
@@ -153,7 +153,7 @@ var Nt = 3
 // your code here
 
 for i in 1...Nt {
-    for j in 1...i {
+    for _ in 1...i {
         print("*", terminator: "")
     }
     print("")
@@ -179,11 +179,11 @@ var Npy = 3
 // your code here
 
 for i in 1...Npy {
-    for j in 0..<(Npy-i) {
+    for _ in 0..<(Npy-i) {
         print(" ", terminator: "")
     }
     
-    for j in 1...2*i-1 {
+    for _ in 1...2*i-1 {
         print("*", terminator: "")
     }
     print("")
@@ -205,11 +205,11 @@ let Nrh = 4
 // your code here
 
 for i in 1...Nrh {
-    for j in 0..<(Nrh-i) {
+    for _ in 0..<(Nrh-i) {
         print(" ", terminator: "")
     }
     
-    for j in 1...2*i-1 {
+    for _ in 1...2*i-1 {
         print("*", terminator: "")
     }
     print("")
@@ -217,12 +217,12 @@ for i in 1...Nrh {
 
 if (Nrh > 1) {
     for j in 2...Nrh {
-        var i = Nrh - j + 1
-        for k in 0..<(Nrh-i) {
+        let i = Nrh - j + 1
+        for _ in 0..<(Nrh-i) {
             print(" ", terminator: "")
         }
         
-        for k in 1...2*i-1 {
+        for _ in 1...2*i-1 {
             print("*", terminator: "")
         }
         print("")
@@ -321,7 +321,7 @@ var b = 0
 
 for _ in 1...Nf {
     print(a)
-    var tmp = a + b
+    let tmp = a + b
     b = a
     a = tmp
 }
@@ -507,84 +507,3 @@ for i in 2...Nfs {
         print(i)
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

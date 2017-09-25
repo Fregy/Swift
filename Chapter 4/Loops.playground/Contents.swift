@@ -1,5 +1,5 @@
 import UIKit
-import Foundation
+
 
 ////////////////////////////////////////////////
 /////////         Introduction         /////////
@@ -69,11 +69,11 @@ repeat {
 } while condition
  */
 
-var i = 1
+var iR = 1
 repeat {
     print(i)
-    i = i + 1
-} while i < 10
+    iR = iR + 1
+} while iR < 10
 
 // Both while and repeat are best used in loops where the numbers of stepts is unkown. Take for example the algorithm of converting a number to binary: divide the number by two until it becomes 0. Write the reminders from right to left to get the binary form of the number.
 
@@ -131,9 +131,9 @@ for i in 0..<10 {
 // If lowerBound is greater than upperBound you code will crash:
     
     // this will crash - don't do it! :)
-    for i in 10...1 {
-        print(i)
-}
+    //    for i in 10...1 {
+    //        print(i)
+    //    }
 
 // If you want to loop on a range in reverse order you can use the reversed range method:
     
@@ -203,82 +203,3 @@ print("MAN")
     }
 
 // Naming your loop variable _ is useful because you immediately tell that the variable is not used in the loop.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

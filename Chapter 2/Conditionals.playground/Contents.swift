@@ -1,9 +1,10 @@
 import UIKit
-import Foundation
+
 
 ////////////////////////////////////////////////
 /////////         Introduction         /////////
 ////////////////////////////////////////////////
+
 // Sometimes you want to run some code only if some conditions are met. For example:
 
 var numberOfOranges = 1
@@ -31,6 +32,7 @@ if numberOfApples > numberOfOranges {
 //////////////////////////////////////////////////////////////
 /////////         Anatomy of an if statement         /////////
 //////////////////////////////////////////////////////////////
+
 // An if statement has the following form:
 /*
     if CONDITION {
@@ -82,6 +84,7 @@ if money > 0 {
 //////////////////////////////////////////////////////
 /////////         Nesting conditions         /////////
 //////////////////////////////////////////////////////
+
 //If statements can be nested inside other if statements.
 /*
 if CONDITION {
@@ -102,10 +105,10 @@ if CONDITION {
 // For example lets say we have two variables age and money. We’ll write some code to determine if you can buy a car that costs 20000. For this you’ll need at least 20000 money and at least an age of 18:
 
 var age = 23
-var money = 25000
+var moneyN = 25000
 
 if age >= 18 {
-    if money >= 20000 {
+    if moneyN >= 20000 {
         print("Getting a new car, baby!")
     } else {
         print("Sorry, you don't have enough money.")
@@ -118,19 +121,20 @@ if age >= 18 {
 ///////////////////////////////////////////////////////
 /////////         Multiple conditions         /////////
 ///////////////////////////////////////////////////////
+
 // Mutiple conditions can be chained together using the && (AND) operator and the || (OR) operator
 
 // The && (AND) operator is used to check if two conditions are simultaneously true. For example consider we have the age of a person stored in a variable age and want to determine if the person is a teenager (age is between 13 and 19). We have to check that the age is greater than or equal to 13 AND less than or equal to 19. This is accomplished by the code below:
 
-var age = 18
-if age >= 13 && age <= 19 {
+var ageM = 18
+if ageM >= 13 && ageM <= 19 {
     print("Teenager")
 }
 // This is equivalent to the following code:
 
-var age = 18
-if age >= 13 {
-    if age <= 19 {
+var ageM2 = 18
+if ageM2 >= 13 {
+    if ageM2 <= 19 {
         print("Teenager")
     }
 }
@@ -138,8 +142,8 @@ if age >= 13 {
 
 // Consider again that we have the age of a person stored in a variable age. We want to print a warning if the age is less than or equal to 0 OR the age is greater than or equal to 100. This is accomplished by the code below:
 
-var age = 123
-if age <= 0 || age >= 100 {
+var ageM3 = 123
+if ageM3 <= 0 || ageM3 >= 100 {
     print("Warning age is probably incorrect!")
 }
 // Note: The OR in programming is not equivalent to the or in everyday language. If someone asks you if you want beef or chicken that means that you can have only one of two. In programming an or statement is also true when both conditions are true at the same time. For example:
@@ -168,28 +172,29 @@ false || false // false
 ////////////////////////////////////////////////////////
 /////////         Negating a condition         /////////
 ////////////////////////////////////////////////////////
+
 // You can negate a condition using the ! operator. A negated condition has oposite value to the original condition. i.e. if the initial condition was true than it’s negation is false. If the initial condition is false than it’s negation istrue.
 
 // For example if we wanted to check if an age is NOT the age of a teenager we could use the following code
 
-var age = 18
-if !(age >= 13 && age <= 19) {
+var ageN = 18
+if !(ageN >= 13 && ageN <= 19) {
     print("Not a teenager!")
 }
 // Note:
     
-    if condition {
+    // if condition {
     // DO SOMETHING WHEN CONDITION IS TRUE
-} else {
+    // } else {
     // DO SOMETHING WHEN CONDITION IS FALSE
-}
+    // }
 // is equivalent of :
     
-    if !condition {
+    // if !condition {
     // DO SOMETHING WHEN CONDITION IS FALSE
-} else {
+    // } else {
     // DO SOMETHING WHEN CONDITION IS TRUE
-}
+    // }
 // Note: If you have an if statement with an else branch than it’s not recommended to negate the condition.
 
 // The below table shows the values of negating some conditions:
@@ -199,56 +204,3 @@ if !(age >= 13 && age <= 19) {
 !(true && true) // false
 !(true || false) // false
 !(false || false) // true
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

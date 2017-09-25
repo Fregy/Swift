@@ -135,6 +135,7 @@ let numerator = a.0 * b.1 + b.0 * a.1
 let denominator = a.1 * b.1
 var sum = (numerator, denominator)
 
+
 /////////////////////////////////////////
 /////////         Money         /////////
 /////////////////////////////////////////
@@ -194,7 +195,7 @@ for string in strings {
         }
     }
     if alreadyExists == false {
-        let tuple = (string,1)
+        let _ = (string,1)
         countedStrings.append((string,1))
     }
 }
