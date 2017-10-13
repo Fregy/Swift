@@ -1,7 +1,5 @@
-//: Playground - noun: a place where people can play
-
 import UIKit
-import Foundation
+
 
 ////////////////////////////////////////////////
 /////////         Introduction         /////////
@@ -117,23 +115,3 @@ var c:Double = Double(a6) // c = 64.0
 var number = 5.25
 var integerNumber = Int(number) // 5
 var doubleNumber = Double(integerNumber) // 5.0
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -1,7 +1,5 @@
-//: Playground - noun: a place where people can play
-
 import UIKit
-import Foundation
+
 
 ///////////////////////////////////////
 /////////         Max         /////////
@@ -280,78 +278,3 @@ if hp > 0 && hp < 20 {
 }
 
 print(hp)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
