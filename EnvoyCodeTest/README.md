@@ -15,7 +15,7 @@ Note: Please refrain from placing this test on any public facing code repository
 
 You should be able to find all of the information you need in this document to communicate with the Twitch API.
 
-- You can use the following client id when communicating with the API: nq033i1s4i5vgvu8q9pqot96ugl9dd
+- You can use the following client id when communicating with the API: <get your own API_Key via twitch.tv>
 - You must include the client id as a header on each request with the key -> "Client-ID"
 - Should you need any additional information it can be found here: https://dev.twitch.tv/docs/v5/reference/games
 - You can use the following API URL to acquire this data: https://api.twitch.tv/kraken/games/top?limit=20
